@@ -31,7 +31,7 @@ setup(
         [console_scripts]
         surveillance-analysis=surveillance_analysis.cli:cli
     """,
-    install_requires=["click"],
+    install_requires=["click", "ffmpeg-python", "tqdm", "webrtcvad"],
     extras_require={
         "test": ["pytest"]
     },
